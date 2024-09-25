@@ -6,7 +6,7 @@ import { Typewriter } from 'react-simple-typewriter';
 
 const Hero = () => {
   return (
-    <section id="home" className="bg-white dark:bg-gray-900 py-20 px-6 md:px-20">
+    <section id="home" className="bg-white dark:bg-gray-900 py-10 px-6 md:px-20">
       <div className="container mx-auto flex flex-col-reverse md:flex-row items-center justify-between">
         
         {/* Social Links */}
