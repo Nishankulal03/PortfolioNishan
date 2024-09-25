@@ -74,13 +74,15 @@ const Contact = () => {
           </div>
           
           {/* Submit Button */}
-          <button 
-            type="submit" 
-            className="w-full px-6 py-2 bg-purple-600 dark:bg-purple-500 text-white rounded hover:bg-purple-700 dark:hover:bg-purple-600"
-            disabled={loading}  // Disable button while sending
-          >
-            {loading ? 'Sending...' : 'Send'}  {/* Show "Sending..." while the form is submitting */}
-          </button>
+ <div className="flex justify-center">
+  <button 
+    type="submit" 
+    className="w-40 md:w-full px-6 py-2 bg-purple-600 dark:bg-purple-500 text-white rounded hover:bg-purple-700 dark:hover:bg-purple-600"
+    disabled={loading}  // Disable button while sending
+  >
+    {loading ? 'Sending...' : 'Send'}  {/* Show "Sending..." while the form is submitting */}
+  </button>
+</div>
 
           {/* Success Message */}
           {success && (
