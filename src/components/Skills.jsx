@@ -26,11 +26,12 @@ const Skills = () => {
   return (
     <section id="skills" className="bg-white dark:bg-gray-900 py-20 px-[10rem] flex flex-col md:flex-row">
       <div className="container">
-        <h2 className="text-4xl mb-4 font-bold ml-[2rem] dark:text-purple-300 text-purple-500 text-center sm:text-3xl md:text-2xl">
+       <h2 className="text-2xl mb-4 font-bold dark:text-purple-300 text-purple-500 sm:text-1xl md:text-4xl text-right flex justify-end">
   Skills, Tools & Technology
 </h2>
+
         {/* Adjust grid layout for mobile and keep desktop as is */}
-        <div className="grid grid-cols-2 sm:grid-cols-1 md:grid-cols-4 lg:grid-cols-6 gap-8 justify-items-center mt-6">
+        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-4 lg:grid-cols-6 gap-8 justify-items-center mt-6">
           {skills.map((skill, index) => (
             <div key={index} className="flex flex-col items-center">
               {skill.icon}
