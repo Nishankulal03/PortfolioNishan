@@ -1,0 +1,32 @@
+.qualification-container {
+  display: flex;
+  justify-content: space-between; /* Space between items */
+  align-items: center; /* Center items vertically */
+}
+
+.qualification-item {
+  flex: 1; /* Make items flexible and equal in size */
+  margin: 0 10px; /* Margin between items */
+  padding: 20px; /* Add padding inside each box */
+  background-color: #f9f9f9; /* Light background color */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Slight shadow */
+  text-align: center; /* Center text */
+}
+
+.qualification-arrow {
+  width: 30px; /* Width of the arrow */
+  height: 2px; /* Height of the arrow */
+  background-color: #6b46c1; /* Color of the arrow */
+  position: relative; /* For positioning the arrow */
+}
+
+.qualification-arrow::after {
+  content: ''; /* Create arrowhead */
+  position: absolute;
+  top: -2px; /* Position above the line */
+  left: 100%; /* Align to the end of the line */
+  border-left: 8px solid #6b46c1; /* Arrowhead color */
+  border-top: 4px solid transparent; /* Arrowhead shape */
+  border-bottom: 4px solid transparent; /* Arrowhead shape */
+}
