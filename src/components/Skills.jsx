@@ -30,7 +30,7 @@ const Skills = () => {
   Skills, Tools & Technology
 </h2>
         {/* Adjust grid layout for mobile and keep desktop as is */}
-        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 justify-items-center mt-6">
+        <div className="grid grid-cols-2 sm:grid-cols-1 md:grid-cols-4 lg:grid-cols-6 gap-8 justify-items-center mt-6">
           {skills.map((skill, index) => (
             <div key={index} className="flex flex-col items-center">
               {skill.icon}
