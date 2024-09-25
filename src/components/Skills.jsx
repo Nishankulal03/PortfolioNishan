@@ -43,7 +43,7 @@ const Skills = () => {
       <img
         src={SkillImg}
         alt="Developer Illustration"
-        className="w-1/2 ml-16" style={{ width: '22rem', height: '22rem' }} // No change for desktop
+        className="w-1/2 ml-16 hidden md:block w-1/2 ml-16" style={{ width: '22rem', height: '22rem' }} // No change for desktop
       />
     </section>
   );
