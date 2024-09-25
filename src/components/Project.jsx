@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import p1 from '../assets/agri.png';
-import p2 from '../assets/book.png';
-import p3 from '../assets/disney.png';
-import p4 from '../assets/api.png';
-import p5 from '../assets/image.png';
+import p1 from '../assets/agr.jpeg';
+import p2 from '../assets/boo.jpeg';
+import p3 from '../assets/disne.jpeg';
+import p4 from '../assets/ap.jpeg';
+import p5 from '../assets/imag.jpeg';
 import { FaLink, FaGithub } from "react-icons/fa";
 
 // Sample portfolio data
