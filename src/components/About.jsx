@@ -3,7 +3,7 @@ import AboutImg from "../assets/aboutm.png";
 
 const About = () => {
   return (
-    <section id="about" className="bg-white dark:bg-gray-900 py-20 flex flex-col md:flex-row px-4 md:px-20">
+    <section id="about" className="bg-white dark:bg-gray-900 py-2 flex flex-col md:flex-row px-4 md:px-20">
       {/* Image Section for Mobile and Desktop */}
       <div className="mt-4 md:mt-10 w-full md:w-1/2 order-1 md:order-1">
         {/* Adjusted the image size for mobile */}
