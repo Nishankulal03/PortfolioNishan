@@ -1,5 +1,5 @@
 import React from 'react';
-import DevImg from '../assets/asset.jpeg';
+import DevImg from '../assets/asset.png';
 import { FaLinkedin, FaGithub, FaEnvelope, FaXTwitter } from "react-icons/fa6";
 import { Typewriter } from 'react-simple-typewriter';
 

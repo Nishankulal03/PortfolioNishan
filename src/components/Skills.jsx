@@ -1,5 +1,5 @@
 import React from 'react';
-import SkillImg from '../assets/skil.jpeg';
+import SkillImg from '../assets/skil.png';
 import { FaHtml5,FaAngular, FaCss3Alt, FaJs,FaPhp, FaBootstrap, FaGitAlt, FaReact, FaPython } from 'react-icons/fa';
 
 import { SiUipath,SiPowerbi,SiMysql } from "react-icons/si";
