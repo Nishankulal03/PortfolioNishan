@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section id="about" className="bg-white dark:bg-gray-900 py-20 flex flex-col md:flex-row px-4 md:px-20">
       {/* Image Section for Mobile and Desktop */}
-      <div className="mt-4 md:mt-20 w-full md:w-1/2 order-1 md:order-1">
+      <div className="mt-4 md:mt-10 w-full md:w-1/2 order-1 md:order-1">
         {/* Adjusted the image size for mobile */}
         <img src={AboutImg} alt="Developer cartoon" className="w-3/4 md:w-full mx-auto md:-mt-60" />
       </div>
