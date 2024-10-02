@@ -10,7 +10,7 @@ import { FaLink, FaGithub } from "react-icons/fa";
 const portfolioData = [
   { id: 1, title: 'Agri-Cliam', category: 'Website', image: p1, description: 'An online Insurnace claiming platform', sourceCode: 'https://github.com/Nishankulal03', liveDemo: '' },
   { id: 2, title: 'BookStore', category: 'Website', image: p2, description: 'Disney Website clone.', sourceCode: 'https://github.com/Nishankulal03', liveDemo: '' },
-  { id: 3, title: 'Disney-Clone', category: 'Website', image: p3, description: 'BookStore e-commerce Website.', sourceCode: 'https://github.com/Nishankulal03', liveDemo: '' },
+  { id: 3, title: 'Disney-Clone', category: 'Website', image: p3, description: 'BookStore e-commerce Website.', sourceCode: 'https://github.com/Nishankulal03/Disney-Clone', liveDemo: 'https://disney-clone-coral-two.vercel.app/' },
   { id: 4, title: 'Api-Testing', category: 'Application', image: p4, description: 'Api-Testing Automation', sourceCode: 'https://github.com/Nishankulal03', liveDemo: '' },
   { id: 5, title: 'Disk-Management', category: 'Application', image: p5, description: 'Disk Management and cleaning project', sourceCode: 'https://github.com/Nishankulal03', liveDemo: '' },
 ];
