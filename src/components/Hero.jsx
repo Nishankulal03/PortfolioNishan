@@ -1,12 +1,12 @@
 import React from 'react';
-import DevImg from '../assets/asset.png';
+import DevImg from '../assets/me.png';
 import { FaLinkedin, FaGithub, FaEnvelope, FaXTwitter } from "react-icons/fa6";
 import { Typewriter } from 'react-simple-typewriter';
 
-
 const Hero = () => {
   return (
-    <section id="home" className="bg-white dark:bg-gray-900 py-10 px-6 md:px-20">
+    <section id="home" className="bg-white dark:bg-gray-900 py-8 px-6 md:px-10 pt-20"> 
+      
       <div className="container mx-auto flex flex-col-reverse md:flex-row items-center justify-between">
         
         {/* Social Links */}
@@ -26,14 +26,14 @@ const Hero = () => {
         </div>
 
         {/* Text Content */}
-        <div className="text-left mt-8 md:mt-0">
-          <h1 className="text-5xl font-bold text-gray-900 dark:text-white">
+        <div className="text-left mt-6 md:mt-0">
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white leading-tight">
             Hello, I'm <br />
             <span className="text-purple-700 dark:text-purple-400">Nishan</span>
           </h1>
           
           {/* Typing effect */}
-          <h2 className="text-2xl font-semibold mt-2 text-gray-800 dark:text-gray-300">
+          <h2 className="text-xl md:text-2xl font-semibold mt-1 text-gray-800 dark:text-gray-300">
             <Typewriter
               words={[
                 "Full Stack Developer",
@@ -49,16 +49,22 @@ const Hero = () => {
             />
           </h2>
           
-          <p className="mt-4 text-gray-600 dark:text-gray-400">
+          <p className="mt-1 text-gray-600 dark:text-gray-400 text-sm md:text-base">
             I develop full-stack web applications.
           </p>
-          <button className="mt-6 px-6 py-2 bg-purple-600 text-white rounded hover:bg-purple-700 dark:bg-purple-700 dark:hover:bg-purple-600">
+          <button className="mt-3 px-5 py-2 bg-purple-600 text-white rounded hover:bg-purple-700 dark:bg-purple-700 dark:hover:bg-purple-600">
             <a href="#contact">Contact Me</a>
           </button>
         </div>
 
-        {/* Image */}
-        <img src={DevImg} alt="Developer Illustration" className="w-full md:w-1/2 mb-8 md:mb-0" />
+        {/* Circular Image Container */}
+        <div className="relative flex justify-center items-center ml-[-10px] md:ml-[-20px]">
+  <div className="w-52 h-52 md:w-64 md:h-64 rounded-full border-4 border-purple-600 dark:border-purple-400 flex justify-center items-center shadow-lg overflow-hidden">
+    <img src={DevImg} alt="Developer Illustration" className="w-full h-full object-cover scale-110" />
+  </div>
+</div>
+
+
       </div>
     </section>
   );
