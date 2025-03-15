@@ -4,8 +4,7 @@ import p2 from '../assets/boo.jpeg';
 import p3 from '../assets/disne.jpeg';
 import p4 from '../assets/ap.jpeg';
 import p5 from '../assets/imag.jpeg';
-import p6 from '../assets/ai.png
-  ';
+import p6 from '../assets/ai.png';
 import { FaLink, FaGithub } from "react-icons/fa";
 
 // Sample portfolio data
