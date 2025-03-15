@@ -5,10 +5,24 @@ const About = () => {
   return (
     <section id="about" className="bg-white dark:bg-gray-900 py-2 flex flex-col md:flex-row px-4 md:px-20">
       {/* Image Section for Mobile and Desktop */}
-      <div className="mt-4 md:mt-10 w-full md:w-1/2 order-1 md:order-1">
-        {/* Adjusted the image size for mobile */}
-        <img src={AboutImg} alt="Developer cartoon" className="w-3/4 md:w-full mx-auto md:-mt-60" />
-      </div>
+      <div className="relative flex justify-center items-center mt-4 md:mt-10 w-full md:w-1/2">
+  {/* Triangle Shape */}
+  <div className="relative w-40 h-40 md:w-56 md:h-56 flex justify-center items-end">
+    <div className="w-0 h-0 border-l-[80px] md:border-l-[100px] 
+                    border-r-[80px] md:border-r-[100px] 
+                    border-b-[140px] md:border-b-[180px] 
+                    border-transparent border-b-purple-400 
+                    shadow-lg absolute bottom-0">
+    </div>
+
+    {/* Image Positioned Inside Triangle */}
+    <img src={AboutImg} 
+         alt="Developer cartoon" 
+         className="absolute bottom-0 left-1/2 transform -translate-x-1/2 
+                    w-28 md:w-36 rounded-lg shadow-lg" />
+  </div>
+</div>
+
 
       {/* Text Content Section */}
       <div className="container mx-auto text-center order-2 md:order-2">
