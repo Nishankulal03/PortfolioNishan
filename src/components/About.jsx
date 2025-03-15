@@ -34,7 +34,7 @@ const About = () => {
         </p>
         <br/>
         <button className="mx-auto mt-4 px-6 py-2 bg-purple-600 text-white rounded hover:bg-purple-700 flex">
-          <a href="https://drive.google.com/file/d/1oW5ESQm-HYHHDA9ssHD0SKyVKXRtKOkC/view?usp=sharing" className="w-full text-center">Download CV</a>
+          <a href="https://drive.google.com/file/d/1TFOWm6b2CYtgaSy6Tk_Cqc33Tj2hJu4a/view?usp=sharing" className="w-full text-center">Download CV</a>
         </button>
       </div>
     </section>
