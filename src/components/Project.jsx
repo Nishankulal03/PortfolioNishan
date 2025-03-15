@@ -4,15 +4,17 @@ import p2 from '../assets/boo.jpeg';
 import p3 from '../assets/disne.jpeg';
 import p4 from '../assets/ap.jpeg';
 import p5 from '../assets/imag.jpeg';
+import p6 from '../assets/imag.jpeg';
 import { FaLink, FaGithub } from "react-icons/fa";
 
 // Sample portfolio data
 const portfolioData = [
-  { id: 1, title: 'Agri-Cliam', category: 'Website', image: p1, description: 'An online Insurnace claiming platform', sourceCode: 'https://github.com/Nishankulal03', liveDemo: '' },
-  { id: 2, title: 'BookStore', category: 'Website', image: p2, description: 'Disney Website clone.', sourceCode: 'https://github.com/Nishankulal03', liveDemo: '' },
-  { id: 3, title: 'Disney-Clone', category: 'Website', image: p3, description: 'BookStore e-commerce Website.', sourceCode: 'https://github.com/Nishankulal03/Disney-Clone', liveDemo: 'https://disney-clone-coral-two.vercel.app/' },
-  { id: 4, title: 'Api-Testing', category: 'Application', image: p4, description: 'Api-Testing Automation', sourceCode: 'https://github.com/Nishankulal03', liveDemo: '' },
-  { id: 5, title: 'Disk-Management', category: 'Application', image: p5, description: 'Disk Management and cleaning project', sourceCode: 'https://github.com/Nishankulal03', liveDemo: '' },
+  { id: 1, title: 'Ai-TalentSuite', category: 'Website', image: p6, description: 'An online Resume Analyser and mock interviewer', sourceCode: 'https://github.com/Nishankulal03', liveDemo: 'https://ai-talent-suite.vercel.app/' },
+  { id: 2, title: 'Agri-Cliam', category: 'Website', image: p1, description: 'An online Insurnace claiming platform', sourceCode: 'https://github.com/Nishankulal03', liveDemo: '' },
+  { id: 3, title: 'BookStore', category: 'Website', image: p2, description: 'Disney Website clone.', sourceCode: 'https://github.com/Nishankulal03', liveDemo: '' },
+  { id: 4, title: 'Disney-Clone', category: 'Website', image: p3, description: 'BookStore e-commerce Website.', sourceCode: 'https://github.com/Nishankulal03/Disney-Clone', liveDemo: 'https://disney-clone-coral-two.vercel.app/' },
+  { id: 5, title: 'Api-Testing', category: 'Application', image: p4, description: 'Api-Testing Automation', sourceCode: 'https://github.com/Nishankulal03', liveDemo: '' },
+  { id: 6, title: 'Disk-Management', category: 'Application', image: p5, description: 'Disk Management and cleaning project', sourceCode: 'https://github.com/Nishankulal03', liveDemo: '' },
 ];
 
 const Project = () => {
